@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>馃挐 My Beloved Onee-Chan : <a href='tg://user?id={OWNER_ID}'>Ecchi Senpai</a>\n馃挓 My Other Siblings : \n  <a href='tg://user?id={OWNER_ID}'>馃崱3D-Waifus</a>\n    <a href='tg://user?id={OWNER_ID}'>馃崱Cosplay Kouhai</a>\n      <a href='tg://user?id={OWNER_ID}'>馃崱Erome-San</a>\n馃帊 My Family : <a href='tg://user?id={OWNER_ID}'>Notice Me?Senpai!!!</a></b>",
+            text = f"<b>⛩️ My Beloved Onee-Chan : <a href='https://t.me/hanimeverse'>Ecchi Senpai</a>\n🎋 My Other Siblings : \n  <a href='https://t.me/+koCBQXQwAok5ZTU9'>🍡3D-Waifus</a>\n    <a href='https://t.me/+3jP7uPeF43s4MDY1'>🍡Cosplay Kouhai</a>\n      <a href='https://t.me/Hanimeland_requestbot'>🍡Erome-San</a>\n🎍 My Family : <a href='https://t.me/Notice_meSenpai'>Notice Me?Senpai!!!</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
