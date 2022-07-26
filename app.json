@@ -11,7 +11,7 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "5314219187:AAHvjy_j5-vV7MwbCb04DM4zIPbeNr7jtbI"
+      "value": "5314219187:AAHK_WmOJ9Fp8f6gWGO8S1ApwhifU7qsSFM"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -35,11 +35,11 @@
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "value": "Hajimemashite {first} Senpai\n\n<b><i>I can provide you private files of Ecchi Senpai Channel through special links.</b></i>"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+      "value": "Sumimasen {first} Senpai\n\n<b>But You need to join my Onee-Chan's Channel to use me\n\nKindly Please join Channel to continue our conversation</b>"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
